@@ -1,0 +1,6 @@
+CREATE TABLE temperature(
+	    ID INTEGER PRIMARY KEY,
+	    Name TEXT,
+	    Temperature DOUBLE,
+	    Timestamp DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL
+);
